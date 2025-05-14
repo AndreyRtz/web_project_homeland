@@ -5,6 +5,8 @@
 }
 
 .footer__copyright {
+    margin-top: 92px;
+    padding: 24px;
     font-family: "Inter";    
     font-size: 14px;
     text-align: center;
