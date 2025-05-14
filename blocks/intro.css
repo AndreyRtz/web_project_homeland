@@ -1,0 +1,36 @@
+.intro {
+    max-width: 984px;
+    margin: auto;
+}
+
+.intro__title {
+    font-family: "Inter";
+     font-weight: 900;
+    font-size: 54px;
+    max-width: 80%;
+}
+
+.intro__text{
+    font-family: "Inter";
+     font-weight: 400;
+    font-size: 24px;
+    max-width: 80%;
+    line-height: 34px;
+}
+
+.intro__text-autor{
+    font-family: "Inter";
+     font-weight: 400;
+    font-size: 24px;
+    text-align: right;
+     max-width: 80%;
+}
+
+.intro__text-final {
+    font-family: "Inter";
+    font-size: 16px;
+     font-weight: 400;
+    max-width: 80%;
+    line-height: 163%;
+    
+}
