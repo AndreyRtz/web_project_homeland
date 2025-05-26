@@ -1,0 +1,29 @@
+.gallery {
+    margin-top: 118px;
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1rem; 
+    margin: 38px auto 92px;
+}
+     
+
+.gallery__image {
+    width: 100%;
+      object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
+    align-items: center;
+  }
+}
+
+@media (max-width: 320px) {
+  .gallery {
+    grid-template-columns: 1fr; /* 1 columna en móviles muy pequeños */
+    
+  }
+}
