@@ -114,6 +114,8 @@
     grid-template-rows: repeat(5, 0fr);
     display: block;
     gap: 10px 0;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .places__story-title {

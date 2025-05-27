@@ -18,12 +18,15 @@
   .gallery {
     grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas pequeñas */
     align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media (max-width: 320px) {
   .gallery {
     grid-template-columns: 1fr; /* 1 columna en móviles muy pequeños */
-    
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

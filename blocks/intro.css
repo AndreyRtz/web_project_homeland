@@ -37,3 +37,19 @@
     line-height: 163%;
     margin-bottom: 118px;
 }
+
+
+@media screen and (min-width: 545px) and (max-width: 1024px) {
+  .intro {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  }
+
+  @media (max-width: 320px) {
+  .intro {
+  
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
